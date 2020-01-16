@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "AllenAlex",
+    "version": "1.0",
+    "description": "no idea what this is",
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js": ["./main.js"]
+        }
+      ]
+
+  }
